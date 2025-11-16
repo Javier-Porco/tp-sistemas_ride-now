@@ -1,1 +1,2 @@
 para que puedan usar el codigo descarguen en su VS Code la extension de "Live server", asi puede correr el index.html 
+Para que termine de funcionar bien el frontend tiene que estar listo el backend, por eso aun no termina de funcionar bien
