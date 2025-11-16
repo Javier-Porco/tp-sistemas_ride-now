@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RideNow – Solicita tu viaje</title>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.5.0/mapbox-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>RideNow - Ruta en tiempo real</h1>
+    <p>Haz clic en el mapa para elegir <strong>origen</strong> y <strong>destino</strong>.</p>
+
+    <div id="map" style="height: 400px; border-radius: 8px; margin: 20px 0;"></div>
+
+    <div style="margin: 10px 0;">
+      <button id="clearBtn">Limpiar selección</button>
+    </div>
+
+    <div id="route-info" class="route-info hidden">
+      <p><strong>Origen:</strong> <span id="origin-coords">—</span></p>
+      <p><strong>Destino:</strong> <span id="dest-coords">—</span></p>
+      <p><strong>Distancia:</strong> <span id="distance">—</span></p>
+      <p><strong>ETA:</strong> <span id="eta">—</span></p>
+    </div>
+
+    <button id="requestBtn" disabled>Pedir viaje</button>
+
+    <div id="driver-status" class="driver-status"></div>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.5.0/mapbox-gl.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
