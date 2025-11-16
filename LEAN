@@ -1,0 +1,1 @@
+para que puedan usar el codigo descarguen en su VS Code la extension de "Live server", asi puede correr el index.html 
