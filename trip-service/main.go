@@ -35,7 +35,7 @@ var tripRequestsTopic *pubsub.Topic
 func main() {
     var err error
     ctx := context.Background()
-    projectID := "ridenow-poc" // ID de proyecto arbitrario para el emulador
+    projectID := "ridenow-poc-jean" // ID de proyecto arbitrario para el emulador
 
     // Inicializar cliente de Pub/Sub con el emulador
     // NOTA: Asegúrate de que PUBSUB_EMULATOR_HOST esté configurado si usas el emulador
